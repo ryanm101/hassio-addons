@@ -1,5 +1,7 @@
 #!/bin/ash
 
+CONFIG_PATH=/data/options.json
+
 PCDIR=/srv/plexconnect
 CERTS=assets/certificates
 PEM=${PCDIR}/${CERTS}/trailers.pem

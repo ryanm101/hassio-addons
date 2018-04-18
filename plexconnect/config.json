@@ -1,0 +1,19 @@
+{
+    "name": "PlexConnect",
+    "version": "1.0",
+    "slug": "plexconnect",
+    "description": "Allows ATV to connect to Plex Server",
+    "url": "https://home-assistant.io/addons/plexconnect/",
+    "startup": "services",
+    "boot": auto",
+    "hassio_api": true,
+    "ports": {
+        "":""
+    },
+    "map": [],
+    "options": {
+    },
+    "schema": {
+    },
+    "image": "homeassistant/{arch}-addon-plexconnect"
+}
